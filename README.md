@@ -5,7 +5,7 @@ A bot for Slack that fetches weather data using the Outgoing Webhooks Custom Int
 I have this setup to listen on any Slack channel for "w" as the trigger word. Users can use the phrase "w 90210" to retrieve the weather from zip code 90210 using wunderground.com's public XML. 
 
 This bot requires:
-- Python untangle library (e.g. sudo pip install untangle)
+- Python untangle library (e.g. `sudo pip install untangle`)
 
 ## Install
 - Copy both the `weather.py` and `weather.php` file to a public directory on your webserver. 
