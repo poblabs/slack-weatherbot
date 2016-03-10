@@ -8,15 +8,15 @@ This driver requires:
 - Python untangle library (e.g. sudo pip install untangle)
 
 ## Install
-- Copy both the weather.py and weather.php file to a public directory on your webserver. 
-- Setup a new Outgoing WebHook in Slack (https://slack.com/apps > Configure > Custom Integrations > Outgoing WebHooks) 
-- Set the channel to listen on to your desire. 
-- Set the Trigger Word to w
-- Set the URL to the public URL the weather.php file will reside
-- Copy the Token, we'll need this soon
+- Copy both the `weather.py` and `weather.php` file to a public directory on your webserver. 
+- Setup a new Outgoing WebHook in Slack (e.g. `https://slack.com/apps > Configure > Custom Integrations > Outgoing WebHooks`) 
+- Set the channel to listen on
+- Set the Trigger Word to `w`
+- Set the URL to the public URL the `weather.php` (e.g. `http://yourserver.com/slackbots/weather.php`) file will reside
+- Copy the `Token`, we'll need this soon
 - Give it a label, and a username
-- Click Save
-- Open weather.php and enter your token into the `$slack_token` variable
+- Click `Save`
+- Open `weather.php` and enter your token into the `$slack_token` variable
 - Update the `exec()` path in weather.php to match the location of weather.py
 
 ## Version
