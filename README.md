@@ -2,9 +2,9 @@
 
 A bot for Slack that fetches weather data using the Outgoing Webhooks Custom Integrations. 
 
-I have this setup to listen on any Slack channel for "w" as the trigger word. Users can use the phrase "w 90210" to retrieve the weather from zip code 90210. 
+I have this setup to listen on any Slack channel for "w" as the trigger word. Users can use the phrase "w 90210" to retrieve the weather from zip code 90210 using wunderground.com's public XML. 
 
-This driver requires:
+This bot requires:
 - Python untangle library (e.g. sudo pip install untangle)
 
 ## Install
