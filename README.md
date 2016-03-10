@@ -1,6 +1,6 @@
 # Slack weatherbot
 
-A Slack bot that fetches weather data using the Outgoing Webhooks Custom Integrations. 
+A bot for Slack that fetches weather data using the Outgoing Webhooks Custom Integrations. 
 
 I have this setup to listen on any Slack channel for "w" as the trigger word. Users can use the phrase "w 90210" to retrieve the weather from zip code 90210. 
 
